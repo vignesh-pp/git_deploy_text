@@ -4,4 +4,4 @@ Add in package.json
 2.npm install gh-pages --save-dev
 3."predeploy":"npm run build",
   "deploy":"gh-pages -d build", add in scripts
-4.npm run build
+4.npm run build.
