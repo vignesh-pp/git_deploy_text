@@ -13,3 +13,11 @@ git push -u origin main
 3."predeploy":"npm run build",
   "deploy":"gh-pages -d build", add in scripts
 4.npm run build
+
+
+////////
+git remote add origin https://github.com/ownernmae/reponame.git
+git add -A
+git commit -m "commit message"
+git branch -M main
+git push -u origin main
