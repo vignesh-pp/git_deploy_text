@@ -1,7 +1,15 @@
 ////////////////git deploy
-Add in package.json
+####In reactapp folder
+git init
+git add .
+git commit -m "commit message"
+git remote add origin https://github.com/ownernmae/reponame.git
+git branch -M main
+git push -u origin main
+
+####Add in package.json
 1. homepage": "https://ownername.github.io/reponame",
 2.npm install gh-pages --save-dev
 3."predeploy":"npm run build",
   "deploy":"gh-pages -d build", add in scripts
-4.npm run build.
+4.npm run build
